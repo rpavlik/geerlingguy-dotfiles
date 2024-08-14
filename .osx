@@ -210,19 +210,19 @@ defaults write com.apple.dock wvous-bl-modifier -int 0
 ###############################################################################
 
 # Enable the Develop menu and the Web Inspector in Safari
-defaults write com.apple.Safari IncludeDevelopMenu -bool true
-defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool true
-defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled -bool true
+# defaults write com.apple.Safari IncludeDevelopMenu -bool true
+# defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool true
+# defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled -bool true
 
 # Add a context menu item for showing the Web Inspector in web views
-defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
+# defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 
 ###############################################################################
 # Mail                                                                        #
 ###############################################################################
 
 # Copy email addresses as `foo@example.com` instead of `Foo Bar <foo@example.com>` in Mail.app
-defaults write com.apple.mail AddressesIncludeNameOnPasteboard -bool false
+# defaults write com.apple.mail AddressesIncludeNameOnPasteboard -bool false
 
 ###############################################################################
 # Spotlight                                                                   #
